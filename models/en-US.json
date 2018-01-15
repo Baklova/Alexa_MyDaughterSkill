@@ -1,0 +1,30 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my daughter",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MyDaughterIntent",
+          "samples": [
+            "wash her hands",
+            "listen to us",
+            "be a good girl"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}

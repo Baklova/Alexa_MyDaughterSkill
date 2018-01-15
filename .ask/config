@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.332f5331-c8a8-4182-bcd4-9d7a7fbe78dd",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "MyDaughterLambda"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
